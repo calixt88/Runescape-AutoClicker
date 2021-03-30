@@ -11,6 +11,7 @@ import javax.swing.JFrame;
  */
 public class antiCheat extends clickerScreen {
 	
+	//Declaring frames globally for event/action listeners
 	JFrame anticheat = new JFrame();
 	
 	antiCheat()
@@ -23,6 +24,7 @@ public class antiCheat extends clickerScreen {
 		anticheat.setTitle("Anti-Cheat AutoClicker");
 		anticheat.getContentPane().setBackground(Color.red);
 		
+		//This code changes the window icon to a red partyhat
 		ImageIcon image = new ImageIcon("redPartyhat.png");
         anticheat.setIconImage(image.getImage());
 	}
